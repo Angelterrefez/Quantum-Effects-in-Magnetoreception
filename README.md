@@ -26,6 +26,6 @@ Finally, this provides biophysical boundaries for engineering highly sensitive, 
 This repository serves as the supplementary codebase for my thesis, containing all the scripts and modules used for the numerical simulations. 
 
 **Technical Details:**
-* **Language:** Python 3.12
-* **Main Libraries:** NumPy, SciPy, Matplotlib.
-> **Note:** Instructions for setting up the environment and running the individual simulations can be found online.
+* **Language:** Python 3.12.10
+* **Main Libraries:** NumPy, SciPy, Matplotlib, Pandas, Tqdm.
+> **Note:** Instructions for setting up the environment and running the individual simulations can be found online. No specific software required.
