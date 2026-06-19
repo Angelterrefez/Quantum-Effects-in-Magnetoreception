@@ -1,5 +1,8 @@
 # Quantum Effects in Magnetoreception
-## Master's Thesis Abstract 
+
+Master's Thesis. José Ángel Terrero Fernández. Supplementary material.
+
+## Abstract 
 
 The radical-pair mechanism (RPM) is the leading hypothesis for avian magnetoreception, yet the description of its open quantum dynamics remains highly debated. 
 In this thesis, I study three competing master equations---Haberkorn, Jones-Hore and Kominis---used to describe spin-selective recombination within the RPM. 
@@ -21,11 +24,15 @@ This work establishes criteria for validating the avian compass as a genuine par
 determine the exact extent to which migratory birds rely on these quantum effects.
 Finally, this provides biophysical boundaries for engineering highly sensitive, bio-inspired quantum magnetometers in the future.
 
-## Supplementary Material
+## Purpose of this Repository
 
 This repository serves as the supplementary codebase for my thesis, containing all the scripts and modules used for the numerical simulations. 
 
 **Technical Details:**
 * **Language:** Python 3.12.10
 * **Main Libraries:** NumPy, SciPy, Matplotlib, Pandas, Tqdm.
-> **Note:** Instructions for setting up the environment and running the individual simulations can be found online. No specific software required.
+> **Note:** Instructions for setting up the environment and running the individual simulations can be found online. Python scripts.
+
+## Files within this Repository
+
+* CIDNP.py: Consistency with the quantum-trajectory picture. Comparison of radical-pair quantum dynamics in CIDNP measurements. 
