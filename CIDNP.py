@@ -732,5 +732,3 @@ if __name__ == '__main__':
         'ME_integral_dIz':     [int_K_ME,  int_H_ME,   int_J_ME],
         'MC_integral_dIz':     [int_K_MC,  int_H_MC,   int_J_MC],
     }).to_csv('simulation_integrals.csv', index=False)
-
-    print("Done.")
