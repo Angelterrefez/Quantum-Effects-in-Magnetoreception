@@ -36,4 +36,5 @@ This repository serves as the supplementary codebase for my thesis, containing a
 ## Files within this Repository
 
 * CIDNP.py: Consistency with the quantum-trajectory picture. Comparison of radical-pair quantum dynamics in CIDNP measurements for the three master equations.
-* Fisher_theta.py: Compute the Fisher information (QFI and CFI for three observables) for each master equations.
+* fisher_theta.py: Compute the Fisher information (QFI and CFI for three observables) as a function of the directional angle (theta) for each master equation.
+* fisher_time.py: Compute the time evolution of the QFI for each master equation.
