@@ -24,8 +24,7 @@ System
 A radical-ion pair with two unpaired electrons (donor D, acceptor A)
 and one nuclear spin (I = 1/2), giving an 8-dimensional Hilbert space.
 
-Basis ordering: |up up up⟩, |up up down⟩, |up down up⟩, |up down down⟩, 
-|down up up⟩, |down up down⟩, |down down up⟩, |down down down⟩
+Basis ordering: |uu u>, |uu d>, |ud u>, |ud d>, |du u>, |du d>, |dd u>, |dd d>
 (first two indices = electron spins D, A; last = nuclear spin I).
 
 Usage
@@ -602,7 +601,6 @@ def plot_and_save(mc_data, me_data, title, ylabel, filename, is_diz=True, integr
     plt.tight_layout()
     plt.savefig(filename, dpi=300, bbox_inches='tight')
     plt.close(fig)
-    print(f"  Saved {filename}")
 
 
 # =============================================================================
@@ -732,3 +730,5 @@ if __name__ == '__main__':
         'ME_integral_dIz':     [int_K_ME,  int_H_ME,   int_J_ME],
         'MC_integral_dIz':     [int_K_MC,  int_H_MC,   int_J_MC],
     }).to_csv('simulation_integrals.csv', index=False)
+
+    print("Done.")
