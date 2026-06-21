@@ -423,7 +423,6 @@ def make_plot(theta_vals, y_H, y_JH, y_K, ylabel, filename):
     fig.tight_layout()
     fig.savefig(filename, dpi=300)
     plt.close(fig)
-    print(f"  Saved {filename}")
 
 
 # =============================================================================
@@ -441,7 +440,6 @@ if __name__ == "__main__":
         for m in ("Haberkorn", "Jones-Hore", "Kominis")
     }
 
-    print("Computing QFI and CFI sweep...")
     for method in ("Haberkorn", "Jones-Hore", "Kominis"):
         for th in tqdm(theta_vals, desc=method, ncols=80):
             qfi, cQS, cS2, cSz2 = compute_fisher_metrics(th, method)
@@ -456,7 +454,7 @@ if __name__ == "__main__":
         results["Jones-Hore"]["qfi"],
         results["Kominis"]["qfi"],
         ylabel=r'QFI',
-        filename="QFI.png",
+        filename="QFI_theta.png",
     )
 
     make_plot(
@@ -465,7 +463,7 @@ if __name__ == "__main__":
         results["Jones-Hore"]["cfi_QS"],
         results["Kominis"]["cfi_QS"],
         ylabel=r'CFI ($Q_S$ measurement)  $1/\Delta^2\theta$',
-        filename="CFI_QS.png",
+        filename="CFI_QS_theta.png",
     )
 
     make_plot(
@@ -474,7 +472,7 @@ if __name__ == "__main__":
         results["Jones-Hore"]["cfi_S2"],
         results["Kominis"]["cfi_S2"],
         ylabel=r'CFI ($\hat{S}^2$ measurement)  $1/\Delta^2\theta$',
-        filename="CFI_S2.png",
+        filename="CFI_S2_theta.png",
     )
 
     make_plot(
@@ -483,5 +481,5 @@ if __name__ == "__main__":
         results["Jones-Hore"]["cfi_Sz2"],
         results["Kominis"]["cfi_Sz2"],
         ylabel=r'CFI ($\hat{S}_z^2$ measurement)  $1/\Delta^2\theta$',
-        filename="CFI_Sz2.png",
+        filename="CFI_Sz2_theta.png",
     )
