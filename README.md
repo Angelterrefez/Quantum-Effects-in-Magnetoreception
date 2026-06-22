@@ -41,3 +41,6 @@ This repository serves as the supplementary codebase for my thesis, containing a
 * ST_coherence.py: It compares the coherence magnitudes evolution in time for the S-T and S-T_0 density matrix' terms. It uses two different Hamiltonians.
 * coherence_measures.py: It compares the time evolution of three coherence measures (l1-norm, relative entropy and geometric coherence) at a fixed angle (theta)
   for each master equations. It also plots the RPs' population decay.
+* qsl_time.py: It computes the QSL time at a fixed angle (theta) for each master equation and compares it with the unitary evolution. It also plots the
+  evolution of the operator norm and the fidelity.
+* velocity.py: It computes the instantaneous quantum speed of the RP state at a fixed angle (theta) for each master equation. It also plots the QFI.
