@@ -31,7 +31,7 @@ This repository serves as the supplementary codebase for my thesis, containing a
 **Technical Details:**
 * **Language:** Python 3.12.10
 * **Main Libraries:** NumPy, SciPy, Matplotlib, Pandas, Tqdm.
-> **Note:** Instructions for setting up the environment and running the individual simulations can be found online. Python scripts.
+> **Note:** Instructions for setting up the environment and running the individual simulations follow standard python guidelines and can be found online.
 
 ## Files within this Repository
 
@@ -39,3 +39,5 @@ This repository serves as the supplementary codebase for my thesis, containing a
 * fisher_theta.py: It computes the Fisher information (QFI and CFI for three observables) as a function of the directional angle (theta) for each master equation.
 * fisher_time.py: It computes the time evolution of the Fisher information (QFI and CFI for three observables) at a fixed angle (theta) for each master equation.
 * ST_coherence.py: It compares the coherence magnitudes evolution in time for the S-T and S-T_0 density matrix' terms. It uses two different Hamiltonians.
+* coherence_measures.py: It compares the time evolution of three coherence measures (l1-norm, relative entropy and geometric coherence) at a fixed angle (theta)
+  for each master equations. It also plots the RPs' population decay.
