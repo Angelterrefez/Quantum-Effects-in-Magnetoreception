@@ -39,7 +39,7 @@ Basis ordering: |uu u>, |uu d>, |ud u>, |ud d>, |du u>, |du d>, |dd u>, |dd d>
 
 Usage
 -----
-    python QFI.py
+    python fisher_theta.py
 
 Output: four PNG plots (QFI, CFI for Q_S, S^2, S_z^2).
 
