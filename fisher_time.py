@@ -3,7 +3,7 @@ Time-Domain Fisher Information of the Radical-Pair Compass
 ===========================================================
 This script computes the quantum Fisher information (QFI) and classical Fisher
 information (CFI) of the instantaneous radical-pair (RP) density matrix rho(t)
-as a function of time, at a fixed geomagnetic field inclination angle theta.
+as a function of time, at a fixed geomagnetic field inclination angle (theta).
 
 Rather than working with the time-averaged steady state (as in QFI.py), here
 we track the Fisher information along the full time evolution of a single RP
