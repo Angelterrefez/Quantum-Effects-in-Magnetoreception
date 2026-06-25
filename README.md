@@ -35,9 +35,9 @@ This repository serves as the supplementary codebase for my thesis, containing a
 * CIDNP.py: Consistency with the quantum-trajectory picture. Comparison of radical-pair quantum dynamics in CIDNP measurements for the three master equations.
 * fisher_theta.py: It computes the Fisher information (QFI and CFI for three observables) as a function of the directional angle (theta) for each master equation.
 * fisher_time.py: It computes the time evolution of the Fisher information (QFI and CFI for three observables) at a fixed angle (theta) for each master equation.
-* ST_coherence.py: It compares the coherence magnitudes evolution in time for the S-T and S-T_0 density matrix' terms. It uses two different Hamiltonians.
+* ST_coherence.py: It compares the time evolution of the coherence magnitudes for the S-T and S-T₀ terms of the density matrix, using two different Hamiltonians.
 * qsl_time.py: It computes the QSL time at a fixed angle (theta) for each master equation and compares it with an unitary evolution. It also plots the
-  evolution of the operator norm of the generator and the quantum fidelity.
+  evolution of the operator norm of the generators and the quantum fidelity.
 * quantum_speed.py: It computes the instantaneous quantum speed of the RP state at a fixed angle (theta) for each master equation.
 * coherence_measures.py: It compares the time evolution of three coherence measures (l1-norm, relative entropy of coherence and geometric coherence) at a fixed angle (theta)
   for each master equations. It also plots the RPs' population decay.
