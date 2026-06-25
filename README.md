@@ -15,7 +15,7 @@ Consequently, I propose an alternative, more optimal measurement scheme based on
 impose severe restrictions on coherence lifetimes and quantum speed limits. These frameworks restrict the operational sensing window of the compass more than the traditional Haberkorn's formulation, 
 while maintaining theoretical consistency across several coherence measures. In contrast, the Haberkorn model yields longer coherence times, which arise from an inadequate treatment of quantum evolution when evaluated 
 from a formal quantum information perspective. This suggests that measurement-based frameworks offer a physically more consistent description of the radical pair's open quantum dynamics.
-Specifically, although the Kominis framework predicts the highest theoretical sensitivity for the compass, the Jones-Hore model emerges as the most physically consistent description overall.
+In particular, although the Kominis framework predicts the highest theoretical sensitivity for the compass, the Jones-Hore model emerges as the most physically consistent description overall.
 
 I conclude that quantum coherence functions as a measurable and consumable resource in magnetoreception, best quantified using geometric distance-based measures such as the relative entropy of coherence. 
 This work establishes criteria for validating the avian compass as a genuine paradigm of quantum biology, although further experimental results are required to determine the exact extent to which migratory birds 
